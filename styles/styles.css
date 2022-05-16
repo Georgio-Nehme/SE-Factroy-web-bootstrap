@@ -86,7 +86,7 @@
 
 
 .container-fluid p-0 {
-    justify-content: center;
+    justify-content: space-around;
     margin-top: 75px;
 }
 
@@ -94,40 +94,48 @@
     font-size: 36px;
     align-content: center;
     justify-content:space-evenly;
-    margin-left:15px;
+    margin-left:150px;
 }
 
 p {
     font-size: 26px;
-
-    
 }
 
-.row > .col-6 > img {
-    width:50vw;
+.col-sm-10 col-lg-5 > img {
+    width: 50vw;
 }
+
+
+.col-sm-10 col-lg-3 {
+    justify-content:space-around;
+}
+
+
 
 .green_section {
     background-color: #25e200;
     font-size: 36px;
+    justify-content: space-between;
+    align-content: center;
 }
 
-.green_section > .title {
+.green_section > .title > .b {
     text-align: center;
+    justify-content:center;
+
 }
 
-.green_section > .programs {
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-}
+
+
+
+
 
 .join_team {
-    display:flex;
-    height:150px;
-    text-align:center;
-    justify-content:center;
-    margin:150px;
+    display: flex;
+    height: 150px;
+    text-align: center;
+    justify-content: center;
+    margin: 150px;
 }
  
 .rp_logo {
